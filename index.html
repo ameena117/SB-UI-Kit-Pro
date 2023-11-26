@@ -13,124 +13,141 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="logo">
-                <a href="">SB UI Kit Pro</a>
 
-            </div>
-            <div class="list">
-                <ul style="list-style-type: none;">
-                    <li class="list-item"><a href="">Home</a></li>
-                    <li class="list-item"><a href="">Landings <i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li class="list-item"><a href="">Pages <i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li class="list-item"><a href="">Documentation <i class="fa-solid fa-chevron-right"></i></a></li>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SB UI Kit Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-md-0 navbar-nav-scroll" style="--bs-scroll-height: 60%;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Landings <i class="fa-solid fa-chevron-right"></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages <i class="fa-solid fa-chevron-right"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Documentation <i class="fa-solid fa-chevron-right"></i></a>
+                    </li>
                 </ul>
+                <form class="d-flex">
+                    <button class="btn" type="submit">BUY NOW <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </form>
             </div>
-            <div class="btn">
-                <a href=""> BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </header>
+        </div>
+    </nav>
 
-        <section class="content">
-            <div class="content-part top">
+    <div class="text-center">
+        <section class="section bg-primary p-2 text-white">
+            <div class="row p-5">
                 <h2>Buy and sell used items</h2>
                 <p>Out with the old, in with the new! Your trash is another's treasure. Start making money, or find
                     great deals today!</p>
             </div>
-            <div class="content-part bottom">
-                <a href="" class="right">start slling</a>
-                <a href="" class="left">browse categories</a>
+            <div class="p-5">
+                <button href="" class="col-xs-6 btn btn-success">start slling</button>
+                <button href="" class="col-xs-6 btn text-white">browse categories</button>
             </div>
         </section>
-        <section class="section">
-            <h3>Recent postings</h3>
-            <ul class="products">
-                <li class="product-card">
+        <section class="section p-5">
+            <h3 class="row px-5">Recent postings</h3>
+            <ul class="row products" style="list-style-type: none;">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/115.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/219.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/19.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/249.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/29.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/34999.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/59.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/69.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/89.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/99.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/999.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
                 </li>
-                <li class="product-card">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 product-card">
                     <img src="img/postings/9999.jpeg" alt="" class="product-img">
-                    <div class="product-info">
+                    <div class="product-info p-2 bg-white">
                         <h4>Product Name</h4>
                         <p>Product Descriptio</p>
                     </div>
@@ -138,129 +155,140 @@
 
             </ul>
 
-            <a href="" class="section-btn">
+            <a href="" class="row p-4">
                 <p>See more deals near you <i class="fa-solid fa-arrow-right"></i> </p>
             </a>
         </section>
-        <section class="section">
-            <h3>Browse Categories</h3>
-            <ul class="categories">
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-car category-icon"></i>
+        <section class="section p-5">
+            <h3 class="row px-5">Browse Categories</h3>
+            <ul class="row categories" style="list-style-type: none;">
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-info">
+                            <i class="fa-solid fa-car"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Cars</h4>
+                        </div>
+                        <div class="category-shadow bg-info"></div>
                     </div>
-                    <div class="category-info">
-                        <h4>Cars</h4>
-                    </div>
-                    <div class="category-shadow"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-house"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Housing</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-danger">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Housing</h4>
+                        </div>
+                        <div class="category-shadow bg-danger"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-gift"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Free</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-warning">
+                            <i class="fa-solid fa-gift"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Free</h4>
+                        </div>
+                        <div class="category-shadow bg-warning"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Tech</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-success">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Tech</h4>
+                        </div>
+                        <div class="category-shadow bg-success"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-couch"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Furniture</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-warning">
+                            <i class="fa-solid fa-couch"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Furniture</h4>
+                        </div>
+                        <div class="category-shadow bg-warning"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Jobs</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-success">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Jobs</h4>
+                        </div>
+                        <div class="category-shadow bg-success"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-motorcycle"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Leisure</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-info">
+                            <i class="fa-solid fa-motorcycle"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Leisure</h4>
+                        </div>
+                        <div class="category-shadow bg-info"></div>
                 </li>
-                <li class="category-card">
-                    <div class="dot">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                    <div class="category-info">
-                        <h4>Other</h4>
-                    </div>
-                    <div class="category-shadow"></div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card">
+                        <div class="dot bg-danger">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="category-info">
+                            <h4>Other</h4>
+                        </div>
+                        <div class="category-shadow bg-danger"></div>
                 </li>
 
             </ul>
         </section>
-        <section class="section">
-            <h3>Browse by city</h3>
-            <ul class="city-list">
-                <li class="city-list-item"><a href="#">Atlanta, GA</a></li>
-                <li class="city-list-item"><a href="#">Austin, TX</a></li>
-                <li class="city-list-item"><a href="#">Baltimore, MD</a></li>
-                <li class="city-list-item"><a href="#">Boston, MA</a></li>
-                <li class="city-list-item"><a href="#">Chicago, IL</a></li>
-                <li class="city-list-item"><a href="#">Cleveland, OH</a></li>
-                <li class="city-list-item"><a href="#">Columbus, OH</a></li>
-                <li class="city-list-item"><a href="#">Dallas, TX</a></li>
-                <li class="city-list-item"><a href="#">Denver, CO</a></li>
-                <li class="city-list-item"><a href="#">Detroit, MI</a></li>
-                <li class="city-list-item"><a href="#">Houston, TX</a></li>
-                <li class="city-list-item"><a href="#">Las Vegas, NV</a></li>
-                <li class="city-list-item"><a href="#">Los Angeles, CA</a></li>
-                <li class="city-list-item"><a href="#">Miami, FL</a></li>
-                <li class="city-list-item"><a href="#">Nashville, TN</a></li>
-                <li class="city-list-item"><a href="#">New York, NY</a></li>
-                <li class="city-list-item"><a href="#">Orlando, FL</a></li>
-                <li class="city-list-item"><a href="#">Philadelphia, PA</a></li>
-                <li class="city-list-item"><a href="#">Phoenix, AZ</a></li>
-                <li class="city-list-item"><a href="#">Portland, OR</a></li>
-                <li class="city-list-item"><a href="#">San Francisco, CA</a></li>
-                <li class="city-list-item"><a href="#">Seattle, WA</a></li>
-                <li class="city-list-item"><a href="#">Tampa, FL</a></li>
-                <li class="city-list-item"><a href="#">See more...</a></li>
+        <section class="section p-5">
+            <h3 class="row px-5">Browse by city text-start</h3>
+            <ul class="row" style="list-style-type: none;">
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Atlanta, GA</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Austin, TX</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Baltimore, MD</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Boston, MA</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Chicago, IL</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Cleveland, OH</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Columbus, OH</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Dallas, TX</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Denver, CO</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Detroit, MI</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Houston, TX</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Las Vegas, NV</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Los Angeles, CA</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Miami, FL</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Nashville, TN</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">New York, NY</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Orlando, FL</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Philadelphia, PA</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Phoenix, AZ</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Portland, OR</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">San Francisco, CA</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Seattle, WA</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">Tampa, FL</a></li>
+                <li class="col-md-3 col-sm-6 col-xs-12 pb-4 city text-start"><a href="#">See more...</a></li>
             </ul>
             <br><br>
 
 
         </section>
 
-        <footer class="footer">
-            <div class="footer-part top">
+        <footer class="footer p-2 bg-primary text-white">
+            <div class="row p-5">
                 <h2>Get the app!</h2>
                 <p>Buy and sell items from your device with our new mobile app!</p>
             </div>
-            <div class="footer-part bottom">
-                <a href="" class="right"><img src="img/app-store-badge.svg" alt="" class="footer-img"></a>
-                <a href="" class="left"><img src="img/google-play-badge.svg" alt="" class="footer-img"></a>
+            <div>
+                <a href="" class="col-xs-6 btn btn-small"><img src="img/app-store-badge.svg" alt="" width="50%"
+                        height="90%"></a>
+                <a href="" class="col-xs-6 btn btn-small"><img src="img/google-play-badge.svg" alt="" width="50%"
+                        height="90%"></a>
                 <p>* Requires Android OS 4.3+ or Apple iOS 9.3+ </p>
             </div>
         </footer>
